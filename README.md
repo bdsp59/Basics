@@ -19,11 +19,13 @@ O objetivo desse repositório é ter uma lista de programas do básico a interme
  
  ### Lista de Compras
  Criar um arquivo para o cliente inserir um nome para a lista de compras, o que deseja comprar e a quantidade. E depois gerar um arquivo com a seguinte visualização:
- '''
+ 
+ """
  Nome da Lista
  
  Produto...........Quantidade - Comprou?[]
- '''
+ """
+ 
  Criar uma interface gráfica para inserir os dados.
  
  ### Conversor de Medidas
@@ -34,8 +36,16 @@ O objetivo desse repositório é ter uma lista de programas do básico a interme
  A palavra da forca deve vir de um banco de dados e selecionada aleatoriamente pelo sistema. O registro das pontuações devem ser salvo no banco também, com a  identificação do jogador, inserida ao final da partida.
  O jogo deve funcionar da seguinte maneira:
   - Cada letra correta adiciona 5 pontos a pontuação e cada letra errada diminui 5 pontos.
+  - Cada palavra correta adiciona 50 pontos a pontuação.
+  - Se acertar a palavra, a outra deve ser escolhida aleatoriamente automaticamente.
+  - Existem 6 tentativas para a forca (Cabeça, Corpo, Braços e Pernas).
+  - Se ocorrer a forca, encerra o jogo, pede o nome do jogador e salva a pontuação.
+  - Jogador pode encerrar a partida quando quiser, salvando a pontuação e nome nesse momento.
+ Criar uma interface gráfica para exibir o jogo e a forca.
  
  ### Programa para Jogar com 5 Jogos
+ Criar um programa com 5 jogos diferentes (Forca, Xadrez, Jogo da Velha, Paciência e Damas), onde o usuário pode escolher qual deseja jogar dentro de um menu de opções.
+ Quando selecionar uma opção deve-se abrir um menu do jogo contendo o botão iniciar, pontuação, crédito e detalhes do como é o jogo.
  Criar uma interface gráfica.
  
  ### Mini-Mercado
