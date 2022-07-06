@@ -1,5 +1,5 @@
 # Basics
-Repositório com o objetivo de armazenar códigos básicos
+Repositório com o objetivo de armazenar códigos iniciais a cada linguagem de programação.
 
 O objetivo desse repositório é ter uma lista de programas do básico a intermediário para começar a estudar qualquer linguagem de programação. Aqui ficaram os códigos de diversas linguagens, indicando que são as que comecei a estudar.
 
@@ -45,13 +45,28 @@ O objetivo desse repositório é ter uma lista de programas do básico a interme
  
  ### Programa para Jogar com 5 Jogos
  Criar um programa com 5 jogos diferentes (Forca, Xadrez, Jogo da Velha, Paciência e Damas), onde o usuário pode escolher qual deseja jogar dentro de um menu de opções.
- Quando selecionar uma opção deve-se abrir um menu do jogo contendo o botão iniciar, pontuação, crédito e detalhes do como é o jogo.
+ Quando selecionar uma opção deve-se abrir um menu do jogo contendo o botão iniciar, crédito e detalhes do como é o jogo. Só tem necessidade de fazer a parte de pontuação se fizer sentido ao jogo.
+ E os jogos, que fizerem sentido, devem ter uma IA oponente para o usuário.
+ O menu seleção terá uma interface gráfica comum a todos os jogos e depois cada jogo deve ter a sua própria.
+ 
+ ### Mercadinho
+ Pensando em uma estrutura de um mercadinho, onde deve é possível que clientes realizem compras, utilizando dinheiro ou cartão, que tem um estoque dos produtos comercializados e no fechamento do caixa o funcionário escreve um relatório das transações realizadas no dia. 
+ Imaginando o mercadinho acima, deve-se criar um programa que atendam todas as necessidades do estabelecimento, sendo elas:
+   - Aviso para renovar o estoque -> Sempre que um produto chegar a 20% da capacidade máxima.
+   - Agrupar as compras realizadas por clientes por tipo de pagamento, pagamentos a fornecedores e sangrias para gerar o relatório no fim do dia.
+   - Ter controle sobre o dinheiro em caixa -> Funcionário deve informar quanto dinheiro tinha quando o caixa abriu e com quanto dinheiro estava ao fechar, e sistema deve verificar se a quantidade está de acordo com as transações feitas em dinheiro. Se estiver correto, sistema já deve armazenar dinheiro do fim do dia para o valor de abertura do dia seguinte.
+   - Permitir entrada de descontos nos produtos (percentual ou valor) e sangrias no caixa.
+   - Ao final do mês gerar um relatório mensal -> Neste relatório deve constar apenas os valores totais das vendas realizadas, não precisa especificar venda a venda, de cada meio de pagamento, valores gastos com compras de produtos e frequência de reposição dos produtos, nessa caso especificar por produto em ordem alfabética, e trazer o lucro, considerando apenas despesas de compra.
  Criar uma interface gráfica.
  
- ### Mini-Mercado
- Criar uma 
- Criar uma interface gráfica.
- 
- ### Jogo Plataforma Estilo Mario
- Criar uma interface gráfica.
- 
+ ### Jogo Plataforma
+ Desenvolver um jogo de plataforma 2D (Ninja's Mask da faculdade). 
+ Características do jogo:
+  - Personagem pode se mover para esquerda e direita, pular e atacar com espada os inimigos.
+  - Ao final de um cenário (qualquer lado) deve-se entrar em um novo cenário, exceto começo e fim da fase.
+  - Ter inimigos com IA de movimentação e ataque.
+  - Ter pelo menos 5 fases, com aumento de dificuldade em cada nova fase e chefe ao final de cada uma.
+  - Ataque a distância e poder limitados a certa quantidade ou condição.
+  - Jogo volta a menu inicial quando personagem morrer, quando o jogo acabar ou quando o jogador sair.
+  - Se o jogador sair ele deve ter a opção de recomeçar no começo da fase, mas com pontuação e atributos do personagem iguais a quando saiu.
+  - Menu inicial com as opções continuar (se houver um jogo incompleto registrado), novo jogo, score e créditos.
